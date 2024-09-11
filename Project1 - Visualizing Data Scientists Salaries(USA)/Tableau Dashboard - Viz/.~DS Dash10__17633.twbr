@@ -1,0 +1,2156 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0807.0327                               -->
+<workbook original-version='18.1' source-build='2024.2.2 (20242.24.0807.0327)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='CITY (Data Scientist Salary - By Geography)' inline='true' name='federated.1hdudvf04xs14l1b8g2ri02oc6xp' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Data Scientist Salary - By Geography' name='excel-direct.0rsg4x911qzeja11b2ssp1s9yyxh'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/gagandeepsingh/Desktop/Gagan/Data Science - Projects/Github/Data-Visualization-Projects-Tableau/Project1 - Visualizing Data Scientists Salaries(USA)/Data Scientist Salary - By Geography.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0rsg4x911qzeja11b2ssp1s9yyxh' name='CITY' table='[CITY$]' type='table'>
+          <columns gridOrigin='A1:S629:no:A1:S629:0' header='yes' outcome='2'>
+            <column datatype='string' name='Area Name' ordinal='0' />
+            <column datatype='string' name='Type' ordinal='1' />
+            <column datatype='integer' name='Employment' ordinal='2' />
+            <column datatype='real' name='Employment percent relative standard error' ordinal='3' />
+            <column datatype='real' name='Hourly mean wage' ordinal='4' />
+            <column datatype='integer' name='Annual mean wage' ordinal='5' />
+            <column datatype='real' name='Wage percent relative standard error' ordinal='6' />
+            <column datatype='real' name='Hourly 10th percentile wage' ordinal='7' />
+            <column datatype='real' name='Hourly 25th percentile wage' ordinal='8' />
+            <column datatype='real' name='Hourly median wage' ordinal='9' />
+            <column datatype='real' name='Hourly 75th percentile wage' ordinal='10' />
+            <column datatype='real' name='Hourly 90th percentile wage' ordinal='11' />
+            <column datatype='integer' name='Annual 10th percentile wage' ordinal='12' />
+            <column datatype='integer' name='Annual 25th percentile wage' ordinal='13' />
+            <column datatype='integer' name='Annual median wage' ordinal='14' />
+            <column datatype='integer' name='Annual 75th percentile wage' ordinal='15' />
+            <column datatype='integer' name='Annual 90th percentile wage' ordinal='16' />
+            <column datatype='real' name='Employment per 1,000 jobs' ordinal='17' />
+            <column datatype='real' name='Location Quotient' ordinal='18' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0rsg4x911qzeja11b2ssp1s9yyxh' name='CITY' table='[CITY$]' type='table'>
+          <columns gridOrigin='A1:S629:no:A1:S629:0' header='yes' outcome='2'>
+            <column datatype='string' name='Area Name' ordinal='0' />
+            <column datatype='string' name='Type' ordinal='1' />
+            <column datatype='integer' name='Employment' ordinal='2' />
+            <column datatype='real' name='Employment percent relative standard error' ordinal='3' />
+            <column datatype='real' name='Hourly mean wage' ordinal='4' />
+            <column datatype='integer' name='Annual mean wage' ordinal='5' />
+            <column datatype='real' name='Wage percent relative standard error' ordinal='6' />
+            <column datatype='real' name='Hourly 10th percentile wage' ordinal='7' />
+            <column datatype='real' name='Hourly 25th percentile wage' ordinal='8' />
+            <column datatype='real' name='Hourly median wage' ordinal='9' />
+            <column datatype='real' name='Hourly 75th percentile wage' ordinal='10' />
+            <column datatype='real' name='Hourly 90th percentile wage' ordinal='11' />
+            <column datatype='integer' name='Annual 10th percentile wage' ordinal='12' />
+            <column datatype='integer' name='Annual 25th percentile wage' ordinal='13' />
+            <column datatype='integer' name='Annual median wage' ordinal='14' />
+            <column datatype='integer' name='Annual 75th percentile wage' ordinal='15' />
+            <column datatype='integer' name='Annual 90th percentile wage' ordinal='16' />
+            <column datatype='real' name='Employment per 1,000 jobs' ordinal='17' />
+            <column datatype='real' name='Location Quotient' ordinal='18' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[CITY]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:S629:no:A1:S629:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Area Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Area Name]</local-name>
+            <parent-name>[CITY]</parent-name>
+            <remote-alias>Area Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CITY_1671F003336D4F9D9661A722BC5E2C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Type]</local-name>
+            <parent-name>[CITY]</parent-name>
+            <remote-alias>Type</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CITY_1671F003336D4F9D9661A722BC5E2C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Employment</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Employment]</local-name>
+            <parent-name>[CITY]</parent-name>
+            <remote-alias>Employment</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CITY_1671F003336D4F9D9661A722BC5E2C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Employment percent relative standard error</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Employment percent relative standard error]</local-name>
+            <parent-name>[CITY]</parent-name>
+            <remote-alias>Employment percent relative standard error</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CITY_1671F003336D4F9D9661A722BC5E2C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hourly mean wage</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Hourly mean wage]</local-name>
+            <parent-name>[CITY]</parent-name>
+            <remote-alias>Hourly mean wage</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CITY_1671F003336D4F9D9661A722BC5E2C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Annual mean wage</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Annual mean wage]</local-name>
+            <parent-name>[CITY]</parent-name>
+            <remote-alias>Annual mean wage</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CITY_1671F003336D4F9D9661A722BC5E2C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wage percent relative standard error</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Wage percent relative standard error]</local-name>
+            <parent-name>[CITY]</parent-name>
+            <remote-alias>Wage percent relative standard error</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CITY_1671F003336D4F9D9661A722BC5E2C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hourly 10th percentile wage</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Hourly 10th percentile wage]</local-name>
+            <parent-name>[CITY]</parent-name>
+            <remote-alias>Hourly 10th percentile wage</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CITY_1671F003336D4F9D9661A722BC5E2C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hourly 25th percentile wage</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Hourly 25th percentile wage]</local-name>
+            <parent-name>[CITY]</parent-name>
+            <remote-alias>Hourly 25th percentile wage</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CITY_1671F003336D4F9D9661A722BC5E2C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hourly median wage</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Hourly median wage]</local-name>
+            <parent-name>[CITY]</parent-name>
+            <remote-alias>Hourly median wage</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CITY_1671F003336D4F9D9661A722BC5E2C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hourly 75th percentile wage</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Hourly 75th percentile wage]</local-name>
+            <parent-name>[CITY]</parent-name>
+            <remote-alias>Hourly 75th percentile wage</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CITY_1671F003336D4F9D9661A722BC5E2C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hourly 90th percentile wage</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Hourly 90th percentile wage]</local-name>
+            <parent-name>[CITY]</parent-name>
+            <remote-alias>Hourly 90th percentile wage</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CITY_1671F003336D4F9D9661A722BC5E2C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Annual 10th percentile wage</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Annual 10th percentile wage]</local-name>
+            <parent-name>[CITY]</parent-name>
+            <remote-alias>Annual 10th percentile wage</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CITY_1671F003336D4F9D9661A722BC5E2C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Annual 25th percentile wage</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Annual 25th percentile wage]</local-name>
+            <parent-name>[CITY]</parent-name>
+            <remote-alias>Annual 25th percentile wage</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CITY_1671F003336D4F9D9661A722BC5E2C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Annual median wage</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Annual median wage]</local-name>
+            <parent-name>[CITY]</parent-name>
+            <remote-alias>Annual median wage</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CITY_1671F003336D4F9D9661A722BC5E2C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Annual 75th percentile wage</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Annual 75th percentile wage]</local-name>
+            <parent-name>[CITY]</parent-name>
+            <remote-alias>Annual 75th percentile wage</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CITY_1671F003336D4F9D9661A722BC5E2C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Annual 90th percentile wage</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Annual 90th percentile wage]</local-name>
+            <parent-name>[CITY]</parent-name>
+            <remote-alias>Annual 90th percentile wage</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CITY_1671F003336D4F9D9661A722BC5E2C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Employment per 1,000 jobs</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Employment per 1,000 jobs]</local-name>
+            <parent-name>[CITY]</parent-name>
+            <remote-alias>Employment per 1,000 jobs</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CITY_1671F003336D4F9D9661A722BC5E2C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location Quotient</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Location Quotient]</local-name>
+            <parent-name>[CITY]</parent-name>
+            <remote-alias>Location Quotient</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CITY_1671F003336D4F9D9661A722BC5E2C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Area Name]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='CITY' datatype='table' name='[__tableau_internal_object_id__].[CITY_1671F003336D4F9D9661A722BC5E2C93]' role='measure' type='quantitative' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='/var/folders/2n/w8h0n0gs0kx8ms3njt22t3s40000gn/T/tableau-temp/#TableauTemp_0er38or1sngke113t7ewd1qu59ne.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='09/09/2024 03:45:50 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Area Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Area Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Area Name</remote-alias>
+              <ordinal>0</ordinal>
+              <family>CITY</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>626</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Type</remote-alias>
+              <ordinal>1</ordinal>
+              <family>CITY</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Employment</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Employment]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Employment</remote-alias>
+              <ordinal>2</ordinal>
+              <family>CITY</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>125</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Employment percent relative standard error</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Employment percent relative standard error]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Employment percent relative standard error</remote-alias>
+              <ordinal>3</ordinal>
+              <family>CITY</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>186</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Hourly mean wage</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Hourly mean wage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Hourly mean wage</remote-alias>
+              <ordinal>4</ordinal>
+              <family>CITY</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>332</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Annual mean wage</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Annual mean wage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Annual mean wage</remote-alias>
+              <ordinal>5</ordinal>
+              <family>CITY</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>347</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Wage percent relative standard error</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Wage percent relative standard error]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Wage percent relative standard error</remote-alias>
+              <ordinal>6</ordinal>
+              <family>CITY</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>108</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Hourly 10th percentile wage</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Hourly 10th percentile wage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Hourly 10th percentile wage</remote-alias>
+              <ordinal>7</ordinal>
+              <family>CITY</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>330</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Hourly 25th percentile wage</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Hourly 25th percentile wage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Hourly 25th percentile wage</remote-alias>
+              <ordinal>8</ordinal>
+              <family>CITY</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>311</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Hourly median wage</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Hourly median wage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Hourly median wage</remote-alias>
+              <ordinal>9</ordinal>
+              <family>CITY</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>327</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Hourly 75th percentile wage</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Hourly 75th percentile wage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Hourly 75th percentile wage</remote-alias>
+              <ordinal>10</ordinal>
+              <family>CITY</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>338</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Hourly 90th percentile wage</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Hourly 90th percentile wage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Hourly 90th percentile wage</remote-alias>
+              <ordinal>11</ordinal>
+              <family>CITY</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>336</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Annual 10th percentile wage</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Annual 10th percentile wage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Annual 10th percentile wage</remote-alias>
+              <ordinal>12</ordinal>
+              <family>CITY</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>338</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Annual 25th percentile wage</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Annual 25th percentile wage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Annual 25th percentile wage</remote-alias>
+              <ordinal>13</ordinal>
+              <family>CITY</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>331</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Annual median wage</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Annual median wage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Annual median wage</remote-alias>
+              <ordinal>14</ordinal>
+              <family>CITY</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>341</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Annual 75th percentile wage</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Annual 75th percentile wage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Annual 75th percentile wage</remote-alias>
+              <ordinal>15</ordinal>
+              <family>CITY</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>348</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Annual 90th percentile wage</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Annual 90th percentile wage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Annual 90th percentile wage</remote-alias>
+              <ordinal>16</ordinal>
+              <family>CITY</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>339</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Employment per 1,000 jobs</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Employment per 1,000 jobs]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Employment per 1,000 jobs</remote-alias>
+              <ordinal>17</ordinal>
+              <family>CITY</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>324</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Location Quotient</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Location Quotient]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Location Quotient</remote-alias>
+              <ordinal>18</ordinal>
+              <family>CITY</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>136</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='CITY' id='CITY_1671F003336D4F9D9661A722BC5E2C93'>
+            <properties context=''>
+              <relation connection='excel-direct.0rsg4x911qzeja11b2ssp1s9yyxh' name='CITY' table='[CITY$]' type='table'>
+                <columns gridOrigin='A1:S629:no:A1:S629:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Area Name' ordinal='0' />
+                  <column datatype='string' name='Type' ordinal='1' />
+                  <column datatype='integer' name='Employment' ordinal='2' />
+                  <column datatype='real' name='Employment percent relative standard error' ordinal='3' />
+                  <column datatype='real' name='Hourly mean wage' ordinal='4' />
+                  <column datatype='integer' name='Annual mean wage' ordinal='5' />
+                  <column datatype='real' name='Wage percent relative standard error' ordinal='6' />
+                  <column datatype='real' name='Hourly 10th percentile wage' ordinal='7' />
+                  <column datatype='real' name='Hourly 25th percentile wage' ordinal='8' />
+                  <column datatype='real' name='Hourly median wage' ordinal='9' />
+                  <column datatype='real' name='Hourly 75th percentile wage' ordinal='10' />
+                  <column datatype='real' name='Hourly 90th percentile wage' ordinal='11' />
+                  <column datatype='integer' name='Annual 10th percentile wage' ordinal='12' />
+                  <column datatype='integer' name='Annual 25th percentile wage' ordinal='13' />
+                  <column datatype='integer' name='Annual median wage' ordinal='14' />
+                  <column datatype='integer' name='Annual 75th percentile wage' ordinal='15' />
+                  <column datatype='integer' name='Annual 90th percentile wage' ordinal='16' />
+                  <column datatype='real' name='Employment per 1,000 jobs' ordinal='17' />
+                  <column datatype='real' name='Location Quotient' ordinal='18' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Sheet1 (Data Scientists Projection)' inline='true' name='federated.15xsswm0to3ont1e7ebtz1nqi7t0' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Data Scientists Projection' name='excel-direct.0dlymk90ih5q010zxwr0d0lw3srf'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/gagandeepsingh/Desktop/Gagan/Data Science - Projects/Github/Data-Visualization-Projects-Tableau/Project1 - Visualizing Data Scientists Salaries(USA)/Data Scientists Projection.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0dlymk90ih5q010zxwr0d0lw3srf' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:K47:no:A1:K47:0' header='yes' outcome='2'>
+            <column datatype='integer' name='State FIPS' ordinal='0' />
+            <column datatype='string' name='Area Name' ordinal='1' />
+            <column datatype='string' name='Occupation Code' ordinal='2' />
+            <column datatype='string' name='Occupation Name' ordinal='3' />
+            <column datatype='integer' name='Base Year' ordinal='4' />
+            <column datatype='integer' name='Base' ordinal='5' />
+            <column datatype='integer' name='Projected Year' ordinal='6' />
+            <column datatype='integer' name='Projection' ordinal='7' />
+            <column datatype='integer' name='Change' ordinal='8' />
+            <column datatype='real' name='Percent Change' ordinal='9' />
+            <column datatype='integer' name='Average Annual Openings' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0dlymk90ih5q010zxwr0d0lw3srf' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:K47:no:A1:K47:0' header='yes' outcome='2'>
+            <column datatype='integer' name='State FIPS' ordinal='0' />
+            <column datatype='string' name='Area Name' ordinal='1' />
+            <column datatype='string' name='Occupation Code' ordinal='2' />
+            <column datatype='string' name='Occupation Name' ordinal='3' />
+            <column datatype='integer' name='Base Year' ordinal='4' />
+            <column datatype='integer' name='Base' ordinal='5' />
+            <column datatype='integer' name='Projected Year' ordinal='6' />
+            <column datatype='integer' name='Projection' ordinal='7' />
+            <column datatype='integer' name='Change' ordinal='8' />
+            <column datatype='real' name='Percent Change' ordinal='9' />
+            <column datatype='integer' name='Average Annual Openings' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:K47:no:A1:K47:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State FIPS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[State FIPS]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>State FIPS</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B71804EB659B45179D47780BA54696FB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Area Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Area Name]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Area Name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B71804EB659B45179D47780BA54696FB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Occupation Code</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Occupation Code]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Occupation Code</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B71804EB659B45179D47780BA54696FB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Occupation Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Occupation Name]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Occupation Name</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B71804EB659B45179D47780BA54696FB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Base Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Base Year]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Base Year</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B71804EB659B45179D47780BA54696FB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Base</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Base]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Base</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B71804EB659B45179D47780BA54696FB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Projected Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Projected Year]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Projected Year</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B71804EB659B45179D47780BA54696FB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Projection</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Projection]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Projection</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B71804EB659B45179D47780BA54696FB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Change</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Change]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Change</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B71804EB659B45179D47780BA54696FB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Percent Change</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Percent Change]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Percent Change</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B71804EB659B45179D47780BA54696FB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average Annual Openings</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Average Annual Openings]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Average Annual Openings</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B71804EB659B45179D47780BA54696FB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Base Year]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Projected Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_B71804EB659B45179D47780BA54696FB]' role='measure' type='quantitative' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='/var/folders/2n/w8h0n0gs0kx8ms3njt22t3s40000gn/T/tableau-temp/#TableauTemp_1jb05ia17tn4wm15n5eux0j74nyv.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='09/09/2024 03:46:00 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>State FIPS</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[State FIPS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>State FIPS</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>46</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Area Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Area Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Area Name</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>46</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Occupation Code</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Occupation Code]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Occupation Code</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Occupation Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Occupation Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Occupation Name</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Base Year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Base Year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Base Year</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Base</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Base]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Base</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>45</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Projected Year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Projected Year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Projected Year</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Projection</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Projection]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Projection</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>46</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Change</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Change]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Change</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>41</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Percent Change</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Percent Change]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Percent Change</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>41</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Average Annual Openings</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Average Annual Openings]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Average Annual Openings</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>34</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_B71804EB659B45179D47780BA54696FB'>
+            <properties context=''>
+              <relation connection='excel-direct.0dlymk90ih5q010zxwr0d0lw3srf' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:K47:no:A1:K47:0' header='yes' outcome='2'>
+                  <column datatype='integer' name='State FIPS' ordinal='0' />
+                  <column datatype='string' name='Area Name' ordinal='1' />
+                  <column datatype='string' name='Occupation Code' ordinal='2' />
+                  <column datatype='string' name='Occupation Name' ordinal='3' />
+                  <column datatype='integer' name='Base Year' ordinal='4' />
+                  <column datatype='integer' name='Base' ordinal='5' />
+                  <column datatype='integer' name='Projected Year' ordinal='6' />
+                  <column datatype='integer' name='Projection' ordinal='7' />
+                  <column datatype='integer' name='Change' ordinal='8' />
+                  <column datatype='real' name='Percent Change' ordinal='9' />
+                  <column datatype='integer' name='Average Annual Openings' ordinal='10' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource hasconnection='false' inline='true' name='Parameters' version='18.1'>
+      <aliases enabled='yes' />
+      <column alias='TOP 10' caption='TOP N' datatype='string' name='[Parameter 1]' param-domain-type='list' role='measure' type='nominal' value='&quot;10&quot;'>
+        <calculation class='tableau' formula='&quot;10&quot;' />
+        <aliases>
+          <alias key='&quot;10&quot;' value='TOP 10' />
+          <alias key='&quot;ALL&quot;' value='ALL INDUSTRY' />
+        </aliases>
+        <members>
+          <member alias='TOP 10' value='&quot;10&quot;' />
+          <member alias='ALL INDUSTRY' value='&quot;ALL&quot;' />
+        </members>
+      </column>
+    </datasource>
+    <datasource caption='OES Sheet (Data Scientists Salary - By Industry)' inline='true' name='federated.0uuxfsw1wn60k4191i4lv1nz7e70' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Data Scientists Salary - By Industry' name='excel-direct.0pdhjsy00bwsn41cpis0t02pn2ns'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/gagandeepsingh/Desktop/Gagan/Data Science - Projects/Github/Data-Visualization-Projects-Tableau/Project1 - Visualizing Data Scientists Salaries(USA)/Data Scientists Salary - By Industry.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0pdhjsy00bwsn41cpis0t02pn2ns' name='OES Sheet' table='[&apos;OES Sheet$&apos;]' type='table'>
+          <columns gridOrigin='A1:P285:no:A1:P285:0' header='yes' outcome='2'>
+            <column datatype='string' name='Occupation' ordinal='0' />
+            <column datatype='integer' name='Employment' ordinal='1' />
+            <column datatype='real' name='Employment percent relative standard error' ordinal='2' />
+            <column datatype='real' name='Hourly mean wage' ordinal='3' />
+            <column datatype='integer' name='Annual mean wage' ordinal='4' />
+            <column datatype='real' name='Wage percent relative standard error' ordinal='5' />
+            <column datatype='real' name='Hourly 10th percentile wage' ordinal='6' />
+            <column datatype='real' name='Hourly 25th percentile wage' ordinal='7' />
+            <column datatype='real' name='Hourly median wage' ordinal='8' />
+            <column datatype='real' name='Hourly 75th percentile wage' ordinal='9' />
+            <column datatype='real' name='Hourly 90th percentile wage' ordinal='10' />
+            <column datatype='integer' name='Annual 10th percentile wage' ordinal='11' />
+            <column datatype='integer' name='Annual 25th percentile wage' ordinal='12' />
+            <column datatype='integer' name='Annual median wage' ordinal='13' />
+            <column datatype='integer' name='Annual 75th percentile wage' ordinal='14' />
+            <column datatype='integer' name='Annual 90th percentile wage' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0pdhjsy00bwsn41cpis0t02pn2ns' name='OES Sheet' table='[&apos;OES Sheet$&apos;]' type='table'>
+          <columns gridOrigin='A1:P285:no:A1:P285:0' header='yes' outcome='2'>
+            <column datatype='string' name='Occupation' ordinal='0' />
+            <column datatype='integer' name='Employment' ordinal='1' />
+            <column datatype='real' name='Employment percent relative standard error' ordinal='2' />
+            <column datatype='real' name='Hourly mean wage' ordinal='3' />
+            <column datatype='integer' name='Annual mean wage' ordinal='4' />
+            <column datatype='real' name='Wage percent relative standard error' ordinal='5' />
+            <column datatype='real' name='Hourly 10th percentile wage' ordinal='6' />
+            <column datatype='real' name='Hourly 25th percentile wage' ordinal='7' />
+            <column datatype='real' name='Hourly median wage' ordinal='8' />
+            <column datatype='real' name='Hourly 75th percentile wage' ordinal='9' />
+            <column datatype='real' name='Hourly 90th percentile wage' ordinal='10' />
+            <column datatype='integer' name='Annual 10th percentile wage' ordinal='11' />
+            <column datatype='integer' name='Annual 25th percentile wage' ordinal='12' />
+            <column datatype='integer' name='Annual median wage' ordinal='13' />
+            <column datatype='integer' name='Annual 75th percentile wage' ordinal='14' />
+            <column datatype='integer' name='Annual 90th percentile wage' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[OES Sheet]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:P285:no:A1:P285:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Occupation</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Occupation]</local-name>
+            <parent-name>[OES Sheet]</parent-name>
+            <remote-alias>Occupation</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Employment</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Employment]</local-name>
+            <parent-name>[OES Sheet]</parent-name>
+            <remote-alias>Employment</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Employment percent relative standard error</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Employment percent relative standard error]</local-name>
+            <parent-name>[OES Sheet]</parent-name>
+            <remote-alias>Employment percent relative standard error</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hourly mean wage</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Hourly mean wage]</local-name>
+            <parent-name>[OES Sheet]</parent-name>
+            <remote-alias>Hourly mean wage</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Annual mean wage</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Annual mean wage]</local-name>
+            <parent-name>[OES Sheet]</parent-name>
+            <remote-alias>Annual mean wage</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wage percent relative standard error</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Wage percent relative standard error]</local-name>
+            <parent-name>[OES Sheet]</parent-name>
+            <remote-alias>Wage percent relative standard error</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hourly 10th percentile wage</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Hourly 10th percentile wage]</local-name>
+            <parent-name>[OES Sheet]</parent-name>
+            <remote-alias>Hourly 10th percentile wage</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hourly 25th percentile wage</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Hourly 25th percentile wage]</local-name>
+            <parent-name>[OES Sheet]</parent-name>
+            <remote-alias>Hourly 25th percentile wage</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hourly median wage</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Hourly median wage]</local-name>
+            <parent-name>[OES Sheet]</parent-name>
+            <remote-alias>Hourly median wage</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hourly 75th percentile wage</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Hourly 75th percentile wage]</local-name>
+            <parent-name>[OES Sheet]</parent-name>
+            <remote-alias>Hourly 75th percentile wage</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hourly 90th percentile wage</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Hourly 90th percentile wage]</local-name>
+            <parent-name>[OES Sheet]</parent-name>
+            <remote-alias>Hourly 90th percentile wage</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Annual 10th percentile wage</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Annual 10th percentile wage]</local-name>
+            <parent-name>[OES Sheet]</parent-name>
+            <remote-alias>Annual 10th percentile wage</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Annual 25th percentile wage</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Annual 25th percentile wage]</local-name>
+            <parent-name>[OES Sheet]</parent-name>
+            <remote-alias>Annual 25th percentile wage</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Annual median wage</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Annual median wage]</local-name>
+            <parent-name>[OES Sheet]</parent-name>
+            <remote-alias>Annual median wage</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Annual 75th percentile wage</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Annual 75th percentile wage]</local-name>
+            <parent-name>[OES Sheet]</parent-name>
+            <remote-alias>Annual 75th percentile wage</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Annual 90th percentile wage</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Annual 90th percentile wage]</local-name>
+            <parent-name>[OES Sheet]</parent-name>
+            <remote-alias>Annual 90th percentile wage</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='TOP 10/ALL' datatype='boolean' name='[Calculation_1240812126002642944]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='IF [Parameters].[Parameter 1]=&apos;10&apos; THEN [Calculation_1240812126002827265]&lt;=10&#10;ELSE [Calculation_1240812126002827265]&gt;0  END'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='INDEX' datatype='integer' name='[Calculation_1240812126002827265]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='INDEX()'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='OCCUPATION' datatype='string' name='[Occupation]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='OES Sheet' datatype='table' name='[__tableau_internal_object_id__].[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]' role='measure' type='quantitative' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='/var/folders/2n/w8h0n0gs0kx8ms3njt22t3s40000gn/T/tableau-temp/#TableauTemp_1apf31n18v6fya13rgazo0n9oabo.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='09/09/2024 05:51:47 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Occupation</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Occupation]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Occupation</remote-alias>
+              <ordinal>0</ordinal>
+              <family>OES Sheet</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>284</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Employment</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Employment]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Employment</remote-alias>
+              <ordinal>1</ordinal>
+              <family>OES Sheet</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>135</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Employment percent relative standard error</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Employment percent relative standard error]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Employment percent relative standard error</remote-alias>
+              <ordinal>2</ordinal>
+              <family>OES Sheet</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>183</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Hourly mean wage</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Hourly mean wage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Hourly mean wage</remote-alias>
+              <ordinal>3</ordinal>
+              <family>OES Sheet</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>246</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Annual mean wage</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Annual mean wage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Annual mean wage</remote-alias>
+              <ordinal>4</ordinal>
+              <family>OES Sheet</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>254</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Wage percent relative standard error</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Wage percent relative standard error]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Wage percent relative standard error</remote-alias>
+              <ordinal>5</ordinal>
+              <family>OES Sheet</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>98</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Hourly 10th percentile wage</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Hourly 10th percentile wage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Hourly 10th percentile wage</remote-alias>
+              <ordinal>6</ordinal>
+              <family>OES Sheet</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>223</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Hourly 25th percentile wage</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Hourly 25th percentile wage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Hourly 25th percentile wage</remote-alias>
+              <ordinal>7</ordinal>
+              <family>OES Sheet</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>234</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Hourly median wage</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Hourly median wage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Hourly median wage</remote-alias>
+              <ordinal>8</ordinal>
+              <family>OES Sheet</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>230</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Hourly 75th percentile wage</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Hourly 75th percentile wage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Hourly 75th percentile wage</remote-alias>
+              <ordinal>9</ordinal>
+              <family>OES Sheet</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>237</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Hourly 90th percentile wage</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Hourly 90th percentile wage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Hourly 90th percentile wage</remote-alias>
+              <ordinal>10</ordinal>
+              <family>OES Sheet</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>224</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Annual 10th percentile wage</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Annual 10th percentile wage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Annual 10th percentile wage</remote-alias>
+              <ordinal>11</ordinal>
+              <family>OES Sheet</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>226</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Annual 25th percentile wage</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Annual 25th percentile wage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Annual 25th percentile wage</remote-alias>
+              <ordinal>12</ordinal>
+              <family>OES Sheet</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>242</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Annual median wage</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Annual median wage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Annual median wage</remote-alias>
+              <ordinal>13</ordinal>
+              <family>OES Sheet</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>232</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Annual 75th percentile wage</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Annual 75th percentile wage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Annual 75th percentile wage</remote-alias>
+              <ordinal>14</ordinal>
+              <family>OES Sheet</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>242</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Annual 90th percentile wage</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Annual 90th percentile wage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Annual 90th percentile wage</remote-alias>
+              <ordinal>15</ordinal>
+              <family>OES Sheet</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>232</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <datasource-dependencies datasource='Parameters'>
+        <column alias='TOP 10' caption='TOP N' datatype='string' name='[Parameter 1]' param-domain-type='list' role='measure' type='nominal' value='&quot;10&quot;'>
+          <calculation class='tableau' formula='&quot;10&quot;' />
+          <aliases>
+            <alias key='&quot;10&quot;' value='TOP 10' />
+            <alias key='&quot;ALL&quot;' value='ALL INDUSTRY' />
+          </aliases>
+        </column>
+      </datasource-dependencies>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='OES Sheet' id='OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8'>
+            <properties context=''>
+              <relation connection='excel-direct.0pdhjsy00bwsn41cpis0t02pn2ns' name='OES Sheet' table='[&apos;OES Sheet$&apos;]' type='table'>
+                <columns gridOrigin='A1:P285:no:A1:P285:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Occupation' ordinal='0' />
+                  <column datatype='integer' name='Employment' ordinal='1' />
+                  <column datatype='real' name='Employment percent relative standard error' ordinal='2' />
+                  <column datatype='real' name='Hourly mean wage' ordinal='3' />
+                  <column datatype='integer' name='Annual mean wage' ordinal='4' />
+                  <column datatype='real' name='Wage percent relative standard error' ordinal='5' />
+                  <column datatype='real' name='Hourly 10th percentile wage' ordinal='6' />
+                  <column datatype='real' name='Hourly 25th percentile wage' ordinal='7' />
+                  <column datatype='real' name='Hourly median wage' ordinal='8' />
+                  <column datatype='real' name='Hourly 75th percentile wage' ordinal='9' />
+                  <column datatype='real' name='Hourly 90th percentile wage' ordinal='10' />
+                  <column datatype='integer' name='Annual 10th percentile wage' ordinal='11' />
+                  <column datatype='integer' name='Annual 25th percentile wage' ordinal='12' />
+                  <column datatype='integer' name='Annual median wage' ordinal='13' />
+                  <column datatype='integer' name='Annual 75th percentile wage' ordinal='14' />
+                  <column datatype='integer' name='Annual 90th percentile wage' ordinal='15' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='1 - Data Scientists Salary - By Industry'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='OES Sheet (Data Scientists Salary - By Industry)' name='federated.0uuxfsw1wn60k4191i4lv1nz7e70' />
+            <datasource name='Parameters' />
+          </datasources>
+          <datasource-dependencies datasource='Parameters'>
+            <column alias='TOP 10' caption='TOP N' datatype='string' name='[Parameter 1]' param-domain-type='list' role='measure' type='nominal' value='&quot;10&quot;'>
+              <calculation class='tableau' formula='&quot;10&quot;' />
+              <aliases>
+                <alias key='&quot;10&quot;' value='TOP 10' />
+                <alias key='&quot;ALL&quot;' value='ALL INDUSTRY' />
+              </aliases>
+            </column>
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.0uuxfsw1wn60k4191i4lv1nz7e70'>
+            <column datatype='integer' name='[Annual median wage]' role='measure' type='quantitative' />
+            <column caption='TOP 10/ALL' datatype='boolean' name='[Calculation_1240812126002642944]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='IF [Parameters].[Parameter 1]=&apos;10&apos; THEN [Calculation_1240812126002827265]&lt;=10&#10;ELSE [Calculation_1240812126002827265]&gt;0  END'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='INDEX' datatype='integer' name='[Calculation_1240812126002827265]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='INDEX()'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='OCCUPATION' datatype='string' name='[Occupation]' role='dimension' type='nominal' />
+            <column-instance column='[Occupation]' derivation='None' name='[none:Occupation:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Annual median wage]' derivation='Sum' name='[sum:Annual median wage:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1240812126002642944]' derivation='User' name='[usr:Calculation_1240812126002642944:nk:1]' pivot='key' type='nominal'>
+              <table-calc ordering-type='Columns' />
+              <table-calc field='[federated.0uuxfsw1wn60k4191i4lv1nz7e70].[Calculation_1240812126002827265]' ordering-type='Columns' />
+            </column-instance>
+          </datasource-dependencies>
+          <computed-sort column='[federated.0uuxfsw1wn60k4191i4lv1nz7e70].[none:Occupation:nk]' direction='DESC' using='[federated.0uuxfsw1wn60k4191i4lv1nz7e70].[sum:Annual median wage:qk]' />
+          <filter class='categorical' column='[federated.0uuxfsw1wn60k4191i4lv1nz7e70].[usr:Calculation_1240812126002642944:nk:1]'>
+            <groupfilter function='member' level='[usr:Calculation_1240812126002642944:nk:1]' member='true' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0uuxfsw1wn60k4191i4lv1nz7e70].[usr:Calculation_1240812126002642944:nk:1]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='tick-color' value='#00000000' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-align' value='left' />
+            <format attr='text-orientation' data-class='subtotal' scope='rows' value='-90' />
+            <format attr='text-format' field='[federated.0uuxfsw1wn60k4191i4lv1nz7e70].[sum:Annual median wage:qk]' value='c&quot;$&quot;#,##0,K;-&quot;$&quot;#,##0,K' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.0uuxfsw1wn60k4191i4lv1nz7e70].[none:Occupation:nk]' value='212' />
+            <format attr='text-align' data-class='total' value='left' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-align' scope='rows' value='left' />
+            <format attr='text-format' field='[federated.0uuxfsw1wn60k4191i4lv1nz7e70].[sum:Annual median wage:qk]' value='c&quot;$&quot;#,##0,K;-&quot;$&quot;#,##0,K' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0uuxfsw1wn60k4191i4lv1nz7e70].[sum:Annual median wage:qk]' palette='red_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+            <format attr='color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.0uuxfsw1wn60k4191i4lv1nz7e70].[usr:Calculation_1240812126002642944:nk:1]' value='TOP N'>
+              <formatted-text>
+                <run>TOP N</run>
+              </formatted-text>
+            </format>
+            <format attr='color' value='#000000' />
+          </style-rule>
+          <style-rule element='quick-filter-title'>
+            <format attr='color' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0uuxfsw1wn60k4191i4lv1nz7e70].[sum:Annual median wage:qk]' />
+              <text column='[federated.0uuxfsw1wn60k4191i4lv1nz7e70].[sum:Annual median wage:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0uuxfsw1wn60k4191i4lv1nz7e70].[none:Occupation:nk]</rows>
+        <cols>[federated.0uuxfsw1wn60k4191i4lv1nz7e70].[sum:Annual median wage:qk]</cols>
+      </table>
+      <simple-id uuid='{6823F1BB-A798-4B1B-A703-749F5614A656}' />
+    </worksheet>
+    <worksheet name='2 - Data Scientists Salary - By Geog'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='CITY (Data Scientist Salary - By Geography)' name='federated.1hdudvf04xs14l1b8g2ri02oc6xp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1hdudvf04xs14l1b8g2ri02oc6xp'>
+            <column datatype='integer' name='[Annual 10th percentile wage]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Annual 25th percentile wage]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Area Name]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column datatype='string' name='[Type]' role='dimension' type='nominal' />
+            <column-instance column='[Area Name]' derivation='None' name='[none:Area Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Type]' derivation='None' name='[none:Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Annual 10th percentile wage]' derivation='Sum' name='[sum:Annual 10th percentile wage:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Annual 25th percentile wage]' derivation='Sum' name='[sum:Annual 25th percentile wage:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1hdudvf04xs14l1b8g2ri02oc6xp].[none:Type:nk]'>
+            <groupfilter function='member' level='[none:Type:nk]' member='&quot;STATE&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1hdudvf04xs14l1b8g2ri02oc6xp].[none:Type:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='tick-color' value='#00000000' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-align' value='left' />
+            <format attr='text-orientation' data-class='subtotal' scope='rows' value='-90' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='text-align' data-class='total' value='left' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-align' scope='rows' value='left' />
+            <format attr='color' field='[federated.1hdudvf04xs14l1b8g2ri02oc6xp].[none:Area Name:nk]' value='#000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+            <format attr='color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='color' value='#000000' />
+          </style-rule>
+          <style-rule element='quick-filter-title'>
+            <format attr='color' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.1hdudvf04xs14l1b8g2ri02oc6xp].[none:Area Name:nk]' />
+            </encodings>
+            <reference-line axis-column='[federated.1hdudvf04xs14l1b8g2ri02oc6xp].[sum:Annual 10th percentile wage:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.1hdudvf04xs14l1b8g2ri02oc6xp].[sum:Annual 10th percentile wage:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1hdudvf04xs14l1b8g2ri02oc6xp].[sum:Annual 10th percentile wage:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.1hdudvf04xs14l1b8g2ri02oc6xp].[none:Area Name:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1hdudvf04xs14l1b8g2ri02oc6xp].[sum:Annual 25th percentile wage:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.1hdudvf04xs14l1b8g2ri02oc6xp].[none:Area Name:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1hdudvf04xs14l1b8g2ri02oc6xp].[sum:Annual 10th percentile wage:qk] + [federated.1hdudvf04xs14l1b8g2ri02oc6xp].[sum:Annual 25th percentile wage:qk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{D2FE5535-A3D9-4C38-9F46-C8ED826CC1ED}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Data Scientist Salaries'>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#00000000' />
+        </style-rule>
+      </style>
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='OES Sheet (Data Scientists Salary - By Industry)' name='federated.0uuxfsw1wn60k4191i4lv1nz7e70' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0uuxfsw1wn60k4191i4lv1nz7e70'>
+        <column caption='TOP 10/ALL' datatype='boolean' name='[Calculation_1240812126002642944]' role='measure' type='nominal'>
+          <calculation class='tableau' formula='IF [Parameters].[Parameter 1]=&apos;10&apos; THEN [Calculation_1240812126002827265]&lt;=10&#10;ELSE [Calculation_1240812126002827265]&gt;0  END'>
+            <table-calc ordering-type='Rows' />
+          </calculation>
+        </column>
+        <column-instance column='[Calculation_1240812126002642944]' derivation='User' name='[usr:Calculation_1240812126002642944:nk:1]' pivot='key' type='nominal'>
+          <table-calc ordering-type='Columns' />
+          <table-calc field='[federated.0uuxfsw1wn60k4191i4lv1nz7e70].[Calculation_1240812126002827265]' ordering-type='Columns' />
+        </column-instance>
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97736' id='24' param='vert' type-v2='layout-flow' w='98666' x='667' y='1132'>
+            <zone h='97736' id='22' param='vert' type-v2='layout-flow' w='98666' x='667' y='1132'>
+              <zone h='97736' id='20' type-v2='layout-basic' w='98666' x='667' y='1132' />
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='124611' id='1' is-scaled='1' param='/Users/gagandeepsingh/Downloads/plain-black-background.jpg' type-v2='bitmap' w='113087' x='-13087' y='-15276' />
+        <zone h='30269' id='3' name='1 - Data Scientists Salary - By Industry' show-title='false' w='36140' x='1350' y='23904' />
+        <zone h='7214' id='11' mode='checkdropdown' name='1 - Data Scientists Salary - By Industry' param='[federated.0uuxfsw1wn60k4191i4lv1nz7e70].[usr:Calculation_1240812126002642944:nk:1]' type-v2='filter' values='database' w='12708' x='18030' y='16973' />
+        <zone forceUpdate='true' h='5233' id='17' type-v2='text' w='13820' x='1827' y='18529'>
+          <formatted-text>
+            <run fontcolor='#ffffff' fontsize='14'>TOP INDUSTRY</run>
+          </formatted-text>
+        </zone>
+        <zone h='4243' id='25' type-v2='text' w='7943' x='3574' y='2546' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='750' minheight='750' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='27' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97736' id='26' param='vert' type-v2='layout-flow' w='98666' x='667' y='1132'>
+                <zone fixed-size='280' h='124611' id='1' is-fixed='true' is-scaled='1' param='/Users/gagandeepsingh/Downloads/plain-black-background.jpg' type-v2='bitmap' w='113087' x='-13087' y='-15276'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='4243' id='25' type-v2='text' w='7943' x='3574' y='2546'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='5233' id='17' type-v2='text' w='13820' x='1827' y='18529'>
+                  <formatted-text>
+                    <run fontcolor='#ffffff' fontsize='14'>TOP INDUSTRY</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7214' id='11' mode='checkdropdown' name='1 - Data Scientists Salary - By Industry' param='[federated.0uuxfsw1wn60k4191i4lv1nz7e70].[usr:Calculation_1240812126002642944:nk:1]' type-v2='filter' values='database' w='12708' x='18030' y='16973'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='242' h='30269' id='3' is-fixed='true' name='1 - Data Scientists Salary - By Industry' show-title='false' w='36140' x='1350' y='23904'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{F853BC93-A443-4A6F-8378-D8F99BCB38BD}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='72'>
+    <window class='worksheet' name='1 - Data Scientists Salary - By Industry'>
+      <cards>
+        <edge name='left'>
+          <strip size='213'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.0uuxfsw1wn60k4191i4lv1nz7e70].[usr:Calculation_1240812126002642944:nk:1]' show-morefewerbutton='false' type='filter' />
+            <card pane-specification-id='0' param='[federated.0uuxfsw1wn60k4191i4lv1nz7e70].[sum:Annual median wage:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B6316703-3460-4C83-87C5-1398728266AA}' />
+    </window>
+    <window class='worksheet' maximized='true' name='2 - Data Scientists Salary - By Geog'>
+      <cards>
+        <edge name='left'>
+          <strip size='271'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{191B0423-209E-4B05-B976-14A377B7D7EC}' />
+    </window>
+    <window class='dashboard' name='Data Scientist Salaries'>
+      <viewpoints>
+        <viewpoint name='1 - Data Scientists Salary - By Industry' />
+      </viewpoints>
+      <active id='1' />
+      <simple-id uuid='{CCD0BF21-FDD3-470B-BC56-F1346F8DFB41}' />
+    </window>
+  </windows>
+</workbook>
