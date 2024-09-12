@@ -9,3 +9,4 @@ This project visualizes the concentrations of Data Scientist roles and their sal
 
 ![Image1](https://github.com/gagandeepsinghkhanuja/Data-Visualization-Projects-Tableau/blob/main/Project1%20-%20Visualizing%20Data%20Scientists%20Salaries(USA)/Output/Data%20Scientist%20Salaries.png)
 
+## Project 2 - Labor Force(USA)
