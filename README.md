@@ -7,6 +7,6 @@ This project visualizes the concentrations of Data Scientist roles and their sal
 
 [Visualizing Data Scientists Salaries(USA) Live Tableau Dashboard](https://public.tableau.com/app/profile/gagandeep.singh.khanuja/viz/DataScientistSalary-NationwideOverview/DataScientistSalaries)
 
-![Image1](https://github.com/gagandeepsinghkhanuja/Data-Visualization-Projects-Tableau/blob/main/Project1%20-%20Visualizing%20Data%20Scientists%20Salaries(USA)/Output/Data%20Scientist%20Salaries(Viz%201).png)
+![Image1](https://github.com/gagandeepsinghkhanuja/Data-Visualization-Projects-Tableau/blob/main/Project1%20-%20Visualizing%20Data%20Scientists%20Salaries(USA)/Output/Data%20Scientist%20Salaries(Viz%202).png)
 
 ## Project 2 - Labor Force(USA)
