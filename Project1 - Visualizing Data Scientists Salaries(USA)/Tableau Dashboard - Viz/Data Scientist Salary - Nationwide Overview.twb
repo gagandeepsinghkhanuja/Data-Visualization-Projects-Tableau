@@ -413,6 +413,7 @@
               <approx-count>284</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Employment</remote-name>
@@ -426,6 +427,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>135</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Employment percent relative standard error</remote-name>
@@ -439,6 +441,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>183</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Hourly mean wage</remote-name>
@@ -452,6 +455,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>246</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Annual mean wage</remote-name>
@@ -465,6 +469,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>254</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Wage percent relative standard error</remote-name>
@@ -478,6 +483,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>98</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Hourly 10th percentile wage</remote-name>
@@ -491,6 +497,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>223</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Hourly 25th percentile wage</remote-name>
@@ -504,6 +511,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>234</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Hourly median wage</remote-name>
@@ -517,6 +525,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>230</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Hourly 75th percentile wage</remote-name>
@@ -530,6 +539,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>237</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Hourly 90th percentile wage</remote-name>
@@ -543,6 +553,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>224</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Annual 10th percentile wage</remote-name>
@@ -556,6 +567,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>226</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Annual 25th percentile wage</remote-name>
@@ -569,6 +581,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>242</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Annual median wage</remote-name>
@@ -582,6 +595,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>232</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Annual 75th percentile wage</remote-name>
@@ -595,6 +609,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>242</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Annual 90th percentile wage</remote-name>
@@ -608,6 +623,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>232</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OES Sheet_BE1F0F20B80A494E8466755BDE19ECE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
           </metadata-records>
         </connection>
@@ -915,6 +931,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>46</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B71804EB659B45179D47780BA54696FB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Area Name</remote-name>
@@ -929,6 +946,7 @@
               <approx-count>46</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B71804EB659B45179D47780BA54696FB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Occupation Code</remote-name>
@@ -943,6 +961,7 @@
               <approx-count>1</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B71804EB659B45179D47780BA54696FB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Occupation Name</remote-name>
@@ -957,6 +976,7 @@
               <approx-count>1</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B71804EB659B45179D47780BA54696FB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Base Year</remote-name>
@@ -970,6 +990,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>1</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B71804EB659B45179D47780BA54696FB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Base</remote-name>
@@ -983,6 +1004,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>45</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B71804EB659B45179D47780BA54696FB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Projected Year</remote-name>
@@ -996,6 +1018,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>1</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B71804EB659B45179D47780BA54696FB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Projection</remote-name>
@@ -1009,6 +1032,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>46</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B71804EB659B45179D47780BA54696FB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Change</remote-name>
@@ -1022,6 +1046,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>41</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B71804EB659B45179D47780BA54696FB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Percent Change</remote-name>
@@ -1035,6 +1060,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>41</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B71804EB659B45179D47780BA54696FB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Average Annual Openings</remote-name>
@@ -1048,6 +1074,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>34</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B71804EB659B45179D47780BA54696FB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
           </metadata-records>
         </connection>
@@ -1774,26 +1801,6 @@
       <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
       <style>
         <style-rule element='mark'>
-          <encoding attr='color' field='[:Measure Names]' type='palette'>
-            <map to='#4e79a7'>
-              <bucket>&quot;[federated.1hdudvf04xs14l1b8g2ri02oc6xp].[sum:Annual 10th percentile wage:qk]&quot;</bucket>
-            </map>
-            <map to='#59a14f'>
-              <bucket>&quot;[federated.1hdudvf04xs14l1b8g2ri02oc6xp].[sum:Annual median wage:qk]&quot;</bucket>
-            </map>
-            <map to='#76b7b2'>
-              <bucket>&quot;[federated.1hdudvf04xs14l1b8g2ri02oc6xp].[sum:Annual 90th percentile wage:qk]&quot;</bucket>
-            </map>
-            <map to='#e15759'>
-              <bucket>&quot;[federated.1hdudvf04xs14l1b8g2ri02oc6xp].[sum:Annual 75th percentile wage:qk]&quot;</bucket>
-            </map>
-            <map to='#edc948'>
-              <bucket>&quot;[federated.1hdudvf04xs14l1b8g2ri02oc6xp]&quot;</bucket>
-            </map>
-            <map to='#f28e2b'>
-              <bucket>&quot;[federated.1hdudvf04xs14l1b8g2ri02oc6xp].[sum:Annual 25th percentile wage:qk]&quot;</bucket>
-            </map>
-          </encoding>
           <encoding attr='color' field='[none:Area Name:nk]' palette='orange_gold_10_0' type='palette'>
             <map to='#9e3a25'>
               <bucket>&quot;Idaho Falls,ID&quot;</bucket>
@@ -3569,6 +3576,26 @@
               <bucket>&quot;Ventura,CA&quot;</bucket>
             </map>
           </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1hdudvf04xs14l1b8g2ri02oc6xp].[sum:Annual 10th percentile wage:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1hdudvf04xs14l1b8g2ri02oc6xp].[sum:Annual median wage:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1hdudvf04xs14l1b8g2ri02oc6xp].[sum:Annual 90th percentile wage:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1hdudvf04xs14l1b8g2ri02oc6xp].[sum:Annual 75th percentile wage:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.1hdudvf04xs14l1b8g2ri02oc6xp]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1hdudvf04xs14l1b8g2ri02oc6xp].[sum:Annual 25th percentile wage:qk]&quot;</bucket>
+            </map>
+          </encoding>
         </style-rule>
       </style>
       <semantic-values>
@@ -4190,8 +4217,8 @@
             <format attr='text-format' field='[federated.1hdudvf04xs14l1b8g2ri02oc6xp].[sum:Annual 10th percentile wage:qk]' value='c&quot;$&quot;#,##0,.00K;-&quot;$&quot;#,##0,.00K' />
             <format attr='text-format' field='[federated.1hdudvf04xs14l1b8g2ri02oc6xp].[sum:Annual 25th percentile wage:qk]' value='c&quot;$&quot;#,##0,.00K;-&quot;$&quot;#,##0,.00K' />
             <format attr='text-format' field='[federated.1hdudvf04xs14l1b8g2ri02oc6xp].[sum:Annual median wage:qk]' value='c&quot;$&quot;#,##0,.00K;-&quot;$&quot;#,##0,.00K' />
-            <format attr='text-format' field='[federated.1hdudvf04xs14l1b8g2ri02oc6xp].[sum:Annual 75th percentile wage:qk]' value='n#,##0,.00K;-#,##0,.00K' />
             <format attr='text-format' field='[federated.1hdudvf04xs14l1b8g2ri02oc6xp].[sum:Annual 90th percentile wage:qk]' value='c&quot;$&quot;#,##0,.00K;-&quot;$&quot;#,##0,.00K' />
+            <format attr='text-format' field='[federated.1hdudvf04xs14l1b8g2ri02oc6xp].[sum:Annual 75th percentile wage:qk]' value='c&quot;$&quot;#,##0,.00K;-&quot;$&quot;#,##0,.00K' />
           </style-rule>
           <style-rule element='header'>
             <format attr='border-width' scope='rows' value='1' />
@@ -5072,7 +5099,7 @@
           </highlight>
         </viewpoint>
       </viewpoints>
-      <active id='25' />
+      <active id='1' />
       <device-preview visible='true'>
         <device name='iPad Pro 12.9-inch' type='Desktop' />
       </device-preview>
