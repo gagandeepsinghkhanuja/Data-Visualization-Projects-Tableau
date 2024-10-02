@@ -3007,6 +3007,17 @@
       </style>
       <size maxheight='1800' maxwidth='2400' minheight='1800' minwidth='2400' sizing-mode='fixed' />
       <zones>
+        <zone h='100000' id='241' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='99112' id='244' param='vert' type-v2='layout-flow' w='99334' x='333' y='444'>
+            <zone h='99112' id='242' type-v2='layout-basic' w='99334' x='333' y='444' />
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
         <zone h='114500' id='1' param='/Users/gagandeepsingh/Desktop/Gagan/Data Science - Projects/Archive APIs &amp; Notes/3 - Data-Visualization-Projects-Tableau/0 - Background Images for Tableau/Black.png' type-v2='bitmap' w='116750' x='-11750' y='-6375' />
         <zone h='51944' id='59' name='Unemployment Rate - By States Map' show-title='false' w='56333' x='22042' y='39611'>
           <zone-style>
@@ -3070,6 +3081,20 @@
             <run fontcolor='#ffffff' fontname='Tableau Medium' fontsize='28'>LABOR PARTICIPATION RATE</run>
           </formatted-text>
         </zone>
+        <zone h='1667' id='239' type-v2='text' w='10000' x='89667' y='5500'>
+          <formatted-text>
+            <run fontcolor='#ffffff' fontname='Tableau Medium' fontsize='10'>Created by : Gagandeep Singh Khanuja</run>
+          </formatted-text>
+        </zone>
+        <zone h='2833' id='240' type-v2='text' w='9250' x='89667' y='7056'>
+          <formatted-text>
+            <run fontcolor='#ffffff' fontname='Tableau Medium'>Data Sources:</run>
+            <run>Æ&#10;</run>
+            <run fontcolor='#ffffff' fontname='Tableau Medium'>BLS(Bureau of Labor Statistics)</run>
+            <run>Æ&#10;</run>
+            <run fontcolor='#ffffff' fontname='Tableau Medium'>FRED(Federal Reserve Economic Data)</run>
+          </formatted-text>
+        </zone>
       </zones>
       <devicelayouts>
         <devicelayout name='Phone' />
@@ -3078,7 +3103,7 @@
     </dashboard>
   </dashboards>
   <windows source-height='30'>
-    <window class='worksheet' maximized='true' name='Real Wage'>
+    <window class='worksheet' name='Real Wage'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -3106,7 +3131,7 @@
       </cards>
       <simple-id uuid='{BA10C2A5-92C2-461D-A6F6-C274AEA78A95}' />
     </window>
-    <window class='dashboard' name='Dashboard 1'>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
       <viewpoints>
         <viewpoint name='CPI - All '>
           <zoom type='entire-view' />
@@ -3131,7 +3156,7 @@
           <default-map-tool-selection tool='1' />
         </viewpoint>
       </viewpoints>
-      <active id='-1' />
+      <active id='1' />
       <device-preview selected='Tablet'>
         <device name='iPad Mini' type='Tablet' />
         <device name='iPhone X, XS, 11, 11 Pro' type='Phone' />
