@@ -3967,7 +3967,7 @@
             <run fontcolor='#ffffff' fontname='Tableau Medium' fontsize='28'>LABOR PARTICIPATION RATE</run>
           </formatted-text>
         </zone>
-        <zone h='21222' id='277' name='Real Wage' show-title='false' w='18292' x='42' y='79444' />
+        <zone h='20000' id='277' name='Real Wage' show-title='false' w='18292' x='42' y='79444' />
         <zone h='6000' id='278' type-v2='text' w='19708' x='167' y='74000'>
           <formatted-text>
             <run fontcolor='#ffffff' fontname='Tableau Medium' fontsize='28'>REAL WAGES (ADJUSTED FOR INFLATION)</run>
