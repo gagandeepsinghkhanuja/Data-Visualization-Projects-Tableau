@@ -3694,8 +3694,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='2850' minheight='2850' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='268' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='99112' id='267' param='vert' type-v2='layout-flow' w='99334' x='333' y='444'>
+            <zone h='100000' id='270' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='99112' id='269' param='vert' type-v2='layout-flow' w='99334' x='333' y='444'>
                 <zone fixed-size='280' forceUpdate='true' h='114500' id='1' is-fixed='true' param='/Users/gagandeepsingh/Desktop/Gagan/Data Science - Projects/Archive APIs &amp; Notes/3 - Data-Visualization-Projects-Tableau/0 - Background Images for Tableau/Black.png' type-v2='bitmap' w='116750' x='-11750' y='-6375'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
