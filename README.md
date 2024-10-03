@@ -10,3 +10,4 @@ This project visualizes the concentrations of Data Scientist roles and their sal
 ![Image1](https://github.com/gagandeepsinghkhanuja/Data-Visualization-Projects-Tableau/blob/main/Project1%20-%20Visualizing%20Data%20Scientists%20Salaries(USA)/Output/Data%20Scientist%20Salaries(Viz%202).png)
 
 ## Project 2 - CPI(Consumer Price Index)
+Explore comprehensive insights on inflation trends with the CPI Dashboard, visualizing key indicators and their economic impacts. This Tableau dashboard offers a clear view of the tipping points toward potential soft or hard landings
